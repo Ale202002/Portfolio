@@ -43,3 +43,5 @@ function efectoHabilidades(){
         document.getElementById("Alura-latam").classList.add("barra-progreso");
     }
 }
+
+

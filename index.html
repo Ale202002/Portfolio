@@ -186,19 +186,21 @@
     <section id="contacto">
         <h3 class="titulo-contacto">Contactame Ahora!</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form action="https://formsubmit.co/alexanderortega2739@gmail.com" method="POST">
                 <div class="fila-mitad">
-                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
-                    <input type="text" placeholder="Direccion De Email" class="input-mitad">
+                    <input type="text" name="nombre" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" name="email" placeholder="Direccion De Email" class="input-mitad">
                 </div>
                 <div class="fila">
-                    <input type="text" placeholder="Asunto..." class="input-full">
+                    <input type="text" name="asunto" placeholder="Asunto..." class="input-full">
                 </div>
                 <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
-                        class="input-full"></textarea>
+                    <textarea name="mensaje" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
                 </div>
                 <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+                <input type="hidden" name="_next" value="https://ale202002.github.io/Portfolio/">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
     </section>
