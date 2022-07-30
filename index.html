@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Web Designs Industry</title>
+
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/W.D.I/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">SKILLS</a></li>
+                            <li><a href="#hobbies" onclick="seleccionar(this)">HOBBIES</a></li>
+                            <li><a href="#formacion" onclick="seleccionar(this)">FORMACION</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive -->
+                    <div id="icono-nav" onclick="resposiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las redes sociales -->
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/alexanderortegamora/?originalSubdomain=ar"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Ale202002"><i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2> A <span>Web Designs Industry</span> Desarrollo Web</h2>
+                <p class="descripcion"> Front-End Development </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/Yo.jpg" alt="Foto de perfil">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola, soy <span>Alexander Ortega Mora</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Empecé a aprender a programar gracias al programa de Oracle One en Alura Latam, me apasiona todo lo que este relacionado a la tecnología.</p>
+            <p>Estoy muy abierto a las nuevas tecnologías y busco oportunidades para hacer prácticas en el área del IT, donde pueda desarrollar mis conocimientos técnicos/personales y crecer junto a la empresa y con mis compañeros de trabajo.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section id="skills">
+        <h3 class="titulo-skills">SKILLS</h3>
+        <div class="fila-skill">
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-html5"></i></span>
+                <h4>Html</h4>
+            </div>
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-css3-alt"></i></span>
+                <h4>Css</h4>
+            </div>
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="skill">
+                <span class="icono"><i class="fa-brands fa-git-alt"></i></span>
+                <h4>Git</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="soft-skills">
+        <h3 class="titulo-softs-skills">SOFT SKILLS</h3>
+        <div class="fila-softs-skills">
+            <div class="soft-skill">
+                <span class="icono"><i class="fa-solid fa-person-walking-arrow-right"></i></span>
+                <h4>Pensamiento Critico</h4>
+            </div>
+            <div class="soft-skill">
+                <span class="icono"><i class="fa-solid fa-person-rays"></i></span>
+                <h4>Flexibilidad</h4>
+            </div>
+            <div class="soft-skill">
+                <span class="icono"><i class="fa-solid fa-person-chalkboard"></i></span>
+                <h4>Creatividad</h4>
+            </div>
+            <div class="soft-skill">
+                <span class="icono"><i class="fa-solid fa-people-group"></i></span>
+                <h4>Trabajo en equipo</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HOBBIES -->
+    <section id="hobbies">
+        <h3 class="titulo-hobbies">HOBBIES</h3>
+        <div class="fila-hobbie">
+            <div class="hobbie">
+                <span class="icono"><i class="fa-solid fa-headset"></i></span>
+                <h4>VideoJuegos</h4>
+            </div>
+            <div class="hobbie">
+                <span class="icono"><i class="fa-solid fa-dumbbell"></i></span>
+                <h4>Gym</h4>
+            </div>
+            <div class="hobbie">
+                <span class="icono"><i class="fa-solid fa-tv"></i></span>
+                <h4>Series</h4>
+            </div>
+            <div class="hobbie">
+                <span class="icono"><i class="fa-solid fa-music"></i></span>
+                <h4>Musica</h4>
+            </div>
+            <div class="hobbie">
+                <span class="icono"><i class="fa-solid fa-book"></i></span>
+                <h4>Leer</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FORMACIONES -->
+    <div class="contenedor-formaciones" id="formacion">
+        <h3>FORMACION</h3>
+        <div class="formaciones">
+            <div class="info">
+                <p><span class="lista"></span>Formacion En Desarrollo Web Y Habilidades Blandas En Alura Latam</p>
+                <span class="porcentaje">65%</span>
+            </div>
+            <div class="barra">
+                <div id="Alura-latam" class="barra-progreso"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-portfolio">MIS PROYECTOS</h3>
+        <div class="fila-proyectos">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://ale202002.github.io/encriptador-de-texto-alura-challenge/"><img
+                        src="img/Encriptador-de-texto.png" alt="Encriptador-de-texto"></a>
+                <div class="info">
+                    <h4>Ir Al Proyecto</h4>
+                    <p>Encriptador De Texto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://ale202002.github.io/Juego-del-ahorcado-alura-challenge/"><img
+                        src="img/Juego-del-ahorcado.png" alt="Juego-del-ahorcado"></a>
+                <div class="info">
+                    <h4>Ir Al Proyecto</h4>
+                    <p>Juego Del Ahorcado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-contacto">Contactame Ahora!</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila-mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion De Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Desarrollador: Alexander Ortega Mora© - Todos Los Derechos Reservados - 2022</p>
+    </footer>
+
+    <script src="js/script.js"> </script>
+
+</body>
+
+</html>
